@@ -1,0 +1,431 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 20px
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    /* background: #fefae0; */
+    color: white;
+    border-bottom: 6px solid #585b5a;
+    font-size: 20px;
+    border-radius: 20px;
+    border-top: 1px solid #585b5a;
+    border-right: 1px solid #585b5a;
+    border-left: 1px solid #585b5a;
+    text-shadow: 2px 2px 10px #606c38;
+    
+}
+button {
+    margin: 1;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+@keyframes bang {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.hoverme {
+  width: px;
+  margin: px  0;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+.hoverme span {
+  color: #333;
+  font-size: 0.9em;
+}
+.hoverme i {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 5px;
+  background: red;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(1) {
+  transform: translate3d(42px, -99px, 0) rotate(229deg);
+  background: #c800ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(2) {
+  transform: translate3d(-98px, -87px, 0) rotate(9deg);
+  background: #00ccff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(3) {
+  transform: translate3d(-48px, -66px, 0) rotate(39deg);
+  background: #ff001a;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(4) {
+  transform: translate3d(79px, -91px, 0) rotate(332deg);
+  background: #ff2200;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(5) {
+  transform: translate3d(-27px, -98px, 0) rotate(259deg);
+  background: #0073ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(6) {
+  transform: translate3d(-66px, -51px, 0) rotate(45deg);
+  background: #006aff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(7) {
+  transform: translate3d(-68px, -96px, 0) rotate(161deg);
+  background: #00ff37;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(8) {
+  transform: translate3d(-14px, -86px, 0) rotate(234deg);
+  background: #ff003c;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(9) {
+  transform: translate3d(87px, -88px, 0) rotate(347deg);
+  background: #ff002b;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(10) {
+  transform: translate3d(60px, -58px, 0) rotate(37deg);
+  background: #fff700;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(11) {
+  transform: translate3d(61px, -89px, 0) rotate(241deg);
+  background: #0009ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(12) {
+  transform: translate3d(-75px, -84px, 0) rotate(41deg);
+  background: #ff0015;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(13) {
+  transform: translate3d(24px, -82px, 0) rotate(213deg);
+  background: #5100ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(14) {
+  transform: translate3d(-71px, -81px, 0) rotate(73deg);
+  background: #c8ff00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(15) {
+  transform: translate3d(77px, -97px, 0) rotate(41deg);
+  background: #00ff3c;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(16) {
+  transform: translate3d(-1px, -97px, 0) rotate(199deg);
+  background: #f700ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(17) {
+  transform: translate3d(-12px, -62px, 0) rotate(308deg);
+  background: #00ff73;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(18) {
+  transform: translate3d(-86px, -77px, 0) rotate(228deg);
+  background: #ff00bb;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(19) {
+  transform: translate3d(-81px, -99px, 0) rotate(261deg);
+  background: #0015ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(20) {
+  transform: translate3d(-44px, -97px, 0) rotate(112deg);
+  background: #ea00ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(21) {
+  transform: translate3d(-29px, -84px, 0) rotate(37deg);
+  background: #aa00ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(22) {
+  transform: translate3d(-25px, -89px, 0) rotate(242deg);
+  background: #00ff1e;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(23) {
+  transform: translate3d(25px, -97px, 0) rotate(88deg);
+  background: #0088ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(24) {
+  transform: translate3d(33px, -77px, 0) rotate(282deg);
+  background: #09ff00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(25) {
+  transform: translate3d(-47px, -88px, 0) rotate(358deg);
+  background: #ff00fb;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(26) {
+  transform: translate3d(-95px, -57px, 0) rotate(199deg);
+  background: #ff5e00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(27) {
+  transform: translate3d(-7px, -75px, 0) rotate(267deg);
+  background: #ff0048;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(28) {
+  transform: translate3d(5px, -89px, 0) rotate(146deg);
+  background: #00ff22;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(29) {
+  transform: translate3d(87px, -63px, 0) rotate(98deg);
+  background: #d500ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(30) {
+  transform: translate3d(13px, -74px, 0) rotate(332deg);
+  background: #f7ff00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(31) {
+  transform: translate3d(-58px, -73px, 0) rotate(131deg);
+  background: #ff006f;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(32) {
+  transform: translate3d(-30px, -70px, 0) rotate(71deg);
+  background: #ff4d00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(33) {
+  transform: translate3d(40px, -65px, 0) rotate(7deg);
+  background: #00ff73;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(34) {
+  transform: translate3d(-73px, -56px, 0) rotate(60deg);
+  background: #0400ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(35) {
+  transform: translate3d(-33px, -73px, 0) rotate(151deg);
+  background: #ff7700;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(36) {
+  transform: translate3d(-30px, -97px, 0) rotate(29deg);
+  background: #0055ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(37) {
+  transform: translate3d(-26px, -87px, 0) rotate(11deg);
+  background: #2f00ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(38) {
+  transform: translate3d(60px, -64px, 0) rotate(226deg);
+  background: #ff000d;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(39) {
+  transform: translate3d(-58px, -69px, 0) rotate(166deg);
+  background: #ff0015;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(40) {
+  transform: translate3d(15px, -50px, 0) rotate(86deg);
+  background: lime;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(41) {
+  transform: translate3d(-82px, -89px, 0) rotate(189deg);
+  background: #0400ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(42) {
+  transform: translate3d(-45px, -96px, 0) rotate(61deg);
+  background: #00fffb;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(43) {
+  transform: translate3d(-78px, -77px, 0) rotate(9deg);
+  background: #1e00ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(44) {
+  transform: translate3d(86px, -60px, 0) rotate(126deg);
+  background: #1a00ff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(45) {
+  transform: translate3d(-58px, -71px, 0) rotate(118deg);
+  background: #51ff00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(46) {
+  transform: translate3d(-26px, -98px, 0) rotate(177deg);
+  background: #001eff;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(47) {
+  transform: translate3d(73px, -98px, 0) rotate(11deg);
+  background: #11ff00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(48) {
+  transform: translate3d(35px, -86px, 0) rotate(36deg);
+  background: #91ff00;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(49) {
+  transform: translate3d(-89px, -51px, 0) rotate(309deg);
+  background: #ff0084;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+.hoverme:hover i:nth-of-type(50) {
+  transform: translate3d(-26px, -74px, 0) rotate(338deg);
+  background: #ff6600;
+  animation: bang 700ms ease-out forwards;
+  opacity: 0;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
